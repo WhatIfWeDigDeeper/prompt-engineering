@@ -58,3 +58,12 @@ generated code.
 ```
 
 
+the generated avatar videos explaining the prompt techniques:
+
+Prompt Techniques Part 1
+Prompt Techniques Part 2
+Prompt Techniques Part 3
+Prompt Techniques Part 4
+Prompt Techniques Part 5
+Prompt Techniques Part 6
+Prompt Techniques Part 7
