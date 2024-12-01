@@ -8,6 +8,27 @@
   - [Meta Language Creation](#meta-language-creation)
 - [Output Customization](#output-customization)
   - [Output Automater](#output-automater)
+- [Generated Table of Contents](#generated-table-of-contents)
+  - [I. Introduction](#i-introduction)
+  - [II. Comparing Software Patterns with Prompt Patterns](#ii-comparing-software-patterns-with-prompt-patterns)
+  - [III. A Catalog of Prompt Patterns for Conversational LLMs](#iii-a-catalog-of-prompt-patterns-for-conversational-llms)
+  - [Specific Prompt Patterns](#specific-prompt-patterns)
+    - [1. Meta Language Creation Pattern](#1-meta-language-creation-pattern)
+    - [2. Output Automater Pattern](#2-output-automater-pattern)
+    - [3. Flipped Interaction Pattern](#3-flipped-interaction-pattern)
+    - [4. Persona Pattern](#4-persona-pattern)
+    - [5. Question Refinement Pattern](#5-question-refinement-pattern)
+    - [6. Alternative Approaches Pattern](#6-alternative-approaches-pattern)
+    - [7. Cognitive Verifier Pattern](#7-cognitive-verifier-pattern)
+    - [8. Fact Check List Pattern](#8-fact-check-list-pattern)
+    - [9. Template Pattern](#9-template-pattern)
+    - [10. Infinite Generation Pattern](#10-infinite-generation-pattern)
+    - [11. Visualization Generator Pattern](#11-visualization-generator-pattern)
+    - [12. Game Play Pattern](#12-game-play-pattern)
+    - [13. Refusal Breaker Pattern](#13-refusal-breaker-pattern)
+    - [14. Context Control Pattern](#14-context-control-pattern)
+  - [IV. Example Implementations](#iv-example-implementations)
+  - [V. Concluding Remarks](#v-concluding-remarks)
 
 ## Summary of the patterns created by Adam Garry, Dell Director of Global Education Strategy
 
@@ -67,3 +88,47 @@ Prompt Techniques Part 4
 Prompt Techniques Part 5
 Prompt Techniques Part 6
 Prompt Techniques Part 7
+
+## Generated Table of Contents
+
+Based on the document content, here's a table of contents for the paper on prompt patterns for large language models:
+
+### I. Introduction
+- Overview of prompt engineering techniques
+- Importance of prompts in LLM interactions
+
+### II. Comparing Software Patterns with Prompt Patterns
+- Relationship between prompt quality and LLM output
+- Overview of software patterns
+- Adaptation of software patterns to prompt patterns
+
+### III. A Catalog of Prompt Patterns for Conversational LLMs
+- Overview of prompt pattern categories
+
+### Specific Prompt Patterns
+#### 1. Meta Language Creation Pattern
+#### 2. Output Automater Pattern
+#### 3. Flipped Interaction Pattern
+#### 4. Persona Pattern
+
+
+- Act as an X
+- Provide outputs that persona X would create
+
+You can have a panel of experts, like a CEO. Act as a CFO. Act as a CTO, Act as a Chief Marketing Officer. Act as a Cybersecurity expert to examine vulnerabilities in my code.
+
+#### 5. Question Refinement Pattern
+#### 6. Alternative Approaches Pattern
+#### 7. Cognitive Verifier Pattern
+#### 8. Fact Check List Pattern
+#### 9. Template Pattern
+#### 10. Infinite Generation Pattern
+#### 11. Visualization Generator Pattern
+#### 12. Game Play Pattern
+#### 13. Refusal Breaker Pattern
+#### 14. Context Control Pattern
+
+### IV. Example Implementations
+- Cloud application deployment example
+
+### V. Concluding Remarks
