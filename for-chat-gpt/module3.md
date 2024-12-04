@@ -5,7 +5,7 @@
 
 ```text
 When I ask a question, suggest a better version of the question to use instead.
-Prompt me if I would like to use the better version instead.
+Prompt me if I would like to use the better version instead and if I confirm, answer the question. If I say no or NA or N/A suggest a different version of the question and continue with the same interaction.
 ```
 
 ## Cognitive Verifier Pattern
@@ -31,6 +31,14 @@ provide outputs that persona X would understand.
 ```text
 I would like you to ask me questions to achieve X
 Ask me questions one at a time until you have enough information to answer the question or to achive this goal.
+```
+
+```text
+When you are asked a question, follow these rules
+
+Generate a number of additional questions that would help more accurately answer the question or meet the goal. Ask these questions one at a time. If I answer NA or N/A proceed to the next question.
+
+Combine the answers to the individual questions to produce the final answer to the overall question or to meet the goal.
 ```
 
 
