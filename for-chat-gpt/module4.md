@@ -4,10 +4,11 @@
 - [Few-shot Examples for Actions](#few-shot-examples-for-actions)
 - [Few-shot Examples with Intermediate Steps](#few-shot-examples-with-intermediate-steps)
 - [Writing Effective Few-Shot Examples](#writing-effective-few-shot-examples)
-  - [ChatGPT on few-shot prompt considerations](#chatgpt-on-few-shot-prompt-considerations)
+	- [ChatGPT on few-shot prompt considerations](#chatgpt-on-few-shot-prompt-considerations)
 - [Chain of Thought Prompting](#chain-of-thought-prompting)
 - [ReAct Prompting](#react-prompting)
-  - [Learn more about ReAct](#learn-more-about-react)
+	- [Learn more about ReAct](#learn-more-about-react)
+- [Using Large Language Models to Grade Each Other](#using-large-language-models-to-grade-each-other)
 - [Exercise](#exercise)
 
 
@@ -185,11 +186,94 @@ In summary, the ReAct framework enhances LLMs by combining reasoning and acting 
 
 </details>
 
+## Using Large Language Models to Grade Each Other
+
+Use LLM to evaluate/grade itself or another LLM
+
+Give a few examples with the expected output score
+
+```text
+input:
+output:
+explanation:
+grade:
+```
+
 
 ## Exercise
 
 1. Write a prompt and test it with ChatGPT or another large language model that uses few-shot examples to teach the large language model to perform a complex task. Provide the prompt and sample output from using the prompt.
 
+<details>
+<summary>Click to expand</summary>
+
+For ballet positions in grande plie do heels lift off the floor
+
+Position: First
+Answer: Yes
+
+Position: Second
+Answer: No
+
+Position: Fifth
+Answer:
+
+---
+
+Position: Fifth
+Answer: Yes
+
+</details>
+
 
 2. Question 2
 Write a prompt and test it with ChatGPT or another large language model that uses few-shot examples to teach the large language model to perform a complex task that requires performing intermediate sub-steps. Provide the prompt and sample output from using the prompt.
+
+<details>
+<summary>Click to expand</summary>
+
+
+Driving example in a neighborhood with narrow streets.
+
+
+Situation: driving from home and turning right at a stop sign.
+Action: accelerate car to speed limit of 25 mph.
+Thought: do not go over the speed limit
+Action: before stop sign take foot off accelerator to slow car.
+Thought: driving as smoothly as possible saves wear and tear on the brakes and provides a more comfortable experience.
+Action: Finally apply brakes to not go over the line.
+Thought: obey rules of the road for safety.
+
+Situation: turn right from a stop sign.
+Action: turn on blinker to signal a right turn.
+Thought: cross traffic or any cars behind know where you intend to go.
+Action: Look left, then right and then left again.
+Thought: make sure there are no pedestrians, animals, or automobiles coming that you might run into.
+Action: gently accelerated while turning right.
+Thought: driving slow at first is safer because you could see things you missed.
+
+Situation: car parked on left side of the Street
+Action: slow down while passing the parked car on the other side of the road.
+Thought: there may be people or animals that are blocked from view who may dart out into traffic.
+Action: after passing car accelerate back to the speed limit.
+Thought: after it's clear and there are no obstructions than it is safe to resume normal speed.
+
+Situation: car parked on right side of the street that necessitates passing by going into the opposite lane.
+Action: slow down.
+Thought: be prepared to stop if there is a car coming on the opposite side of the road.
+Action:
+
+---
+
+Action: Check for oncoming traffic and wait if necessary. If clear, gently steer into the opposite lane while maintaining a slow speed.
+Thought: Crossing into the opposite lane requires extra caution to avoid potential collisions.
+
+Action: Pass the parked car while staying alert for pedestrians or animals.
+Thought: Always be aware of any sudden movements or hidden obstructions around the parked car.
+
+Action: Return to your lane as soon as it is safe to do so.
+Thought: Staying in the correct lane ensures you comply with traffic rules and minimize risks to oncoming vehicles.
+
+Would you like to expand on this example or add more situations?
+
+</details>
