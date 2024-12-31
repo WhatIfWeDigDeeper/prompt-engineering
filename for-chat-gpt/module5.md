@@ -5,6 +5,7 @@
 - [Template Pattern](#template-pattern)
 - [Meta language Creation Pattern](#meta-language-creation-pattern)
 - [Recipe pattern](#recipe-pattern)
+- [Alternative Approaches Pattern](#alternative-approaches-pattern)
 - [Exercises: Applying Prompt Patterns II](#exercises-applying-prompt-patterns-ii)
 
 
@@ -63,6 +64,31 @@ I will tell you my start and end destination and you will provide a complete lis
 
 
 I am travelling from Lyon to Marseilles
+
+## Alternative Approaches Pattern
+
+```text
+From now on, if there are alternative ways to accomplish the same thing, list the best alternate approaches. Compare and contrast the alternatives and ask me which one I want to use.
+```
+
+Sample
+
+```text
+Write a prompt for chat GPT using the few shot examples to determine...
+```
+
+Ask ChatGPT to write the prompt and list alternatives and the name of the pattern and their pros and cons in this situation.
+
+
+Examples
+
+```text
+For every prompt I give you, If there are alternative ways to word a prompt that I give you, list the best alternate wordings . Compare/contrast the pros and cons of each wording.
+```
+
+```text
+For anything that I ask you to write, determine the underlying problem that I am trying to solve and how I am trying to solve it. List at least one alternative approach to solve the problem and compare / contrast the approach with the original approach implied by my request to you.
+```
 
 ---
 
