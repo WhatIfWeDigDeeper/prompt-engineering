@@ -6,4 +6,4 @@
 2. [Conversations, & New Information](./module2.md)
 3. [Introduction to Prompt Patterns](./module3.md)
 4. [Few-Shot Examples](./module4.md)
-5.
+5. [Prompt Patterns II](./module5.md)
