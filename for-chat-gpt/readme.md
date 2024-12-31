@@ -7,3 +7,4 @@
 3. [Introduction to Prompt Patterns](./module3.md)
 4. [Few-Shot Examples](./module4.md)
 5. [Prompt Patterns II](./module5.md)
+6. [Prompt Patterns III](./module6.md)
