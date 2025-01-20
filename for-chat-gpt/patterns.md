@@ -133,4 +133,4 @@ You can have a panel of experts, like a CEO. Act as a CFO. Act as a CTO, Act as 
 
 ### V. Concluding Remarks
 
-[next](./patterns.md) | [top](#patterns) | [course](./readme.md)
+[next](./module2.md) | [top](#patterns) | [course](./readme.md)
