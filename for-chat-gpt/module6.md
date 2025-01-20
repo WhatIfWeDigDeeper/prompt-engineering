@@ -10,11 +10,8 @@
 - [Conclusion](#conclusion)
 - [Exercise](#exercise)
 	- [Exercise Prompt](#exercise-prompt)
-- [Alternative Approach 2](#alternative-approach-2)
 - [Would you like to dive deeper into any specific aspect of this approach or move to another prompt?](#would-you-like-to-dive-deeper-into-any-specific-aspect-of-this-approach-or-move-to-another-prompt)
-- [A](#a)
 - [Would you like further details about iframe-specific communication, styling, or performance optimization? Or should we move to another task?](#would-you-like-further-details-about-iframe-specific-communication-styling-or-performance-optimization-or-should-we-move-to-another-task)
-- [act as a software architect: provide a recommendation for which approach to choose](#act-as-a-software-architect-provide-a-recommendation-for-which-approach-to-choose)
 
 
 ## Ask for Input Pattern
@@ -24,7 +21,12 @@ Example
 Combines asking ChatGPT to come up with alternative prompts and the ask for input pattern.
 
 ```text
-Whenever I ask you to write a prompt for me to accomplish a task, list what the task is, list alternative approaches for completing the task, and then write a prompt for yourself for each approach. When you are done, ask me for the next prompt to create alternatives for.
+Whenever I ask you to write a prompt for me to accomplish a task,
+list what the task is,
+list alternative approaches for completing the task,
+and then write a prompt for yourself for each approach.
+When you are done,
+ask me for the next prompt to create alternatives for.
 
 Ask me for the first task.
 ```
@@ -40,27 +42,62 @@ What pattern would solve certain aspects of the problem and how to combine those
 To use this pattern, your prompt should make the following fundamental contextual statements:
 
 ```text
-Act as an outline expander [Persona Pattern]. Generate a bullet point outline based on the input that I give you and then ask me for which bullet point you should expand on. Create a new outline for the bullet point that I select. At the end, ask me for what bullet point to expand next [Tail Generation Pattern].
+# Persona Pattern
+Act as an outline expander.
+Generate a bullet point outline
+based on the input that I give you
+and then ask me for which bullet point you should expand on.
+Create a new outline for the bullet point that I select.
 
-Ask me for what to outline. [Ask for Input pattern]
+# Tail Generation Pattern
+At the end, ask me for what bullet point to expand next .
+
+# Ask for Input pattern
+Ask me for what to outline.
 ```
 
 Similar Example with formatting
 
 ```text
-Act as an outline expander. Generate a bullet point outline based on the input that I give you and then ask me for which bullet point you should expand on. Each bullet can have at most 3-5 sub bullets. The bullets should be numbered using the pattern [A-Z].[i-v].[* through ****]. Create a new outline for the bullet point that I select.  At the end, ask me for what bullet point to expand next. Ask me for what to outline.
+Act as an outline expander.
+Generate a bullet point outline
+based on the input that I give you
+and then ask me for which bullet point you should expand on.
+Each bullet can have at most 3-5 sub bullets.
+The bullets should be numbered using the pattern
+[A-Z].[i-v].[* through ****]
+
+Create a new outline for the bullet point that I select.
+At the end, ask me for what bullet point to expand next.
+
+Ask me for what to outline.
 ```
 
 ## Menu Actions Pattern
 
 ```text
-Whenever I type: "write <bullet point> <paragraphs>", you will write content for the selected bullet point <bullet point>. You will write <paragraphs> of text. Whenever I type just "<bullet point>" you'll expand that bullet point. At the end you will ask me for the next action.
+Whenever I type: "write <bullet point> <paragraphs>",
+you will write content for the selected bullet point <bullet point>.
+You will write <paragraphs> of text.
+Whenever I type just "<bullet point>" you'll expand that bullet point.
+
+At the end you will ask me for the next action.
 ```
 
 Example
 
 ```text
-Whenever I type: "add FOOD", you will add FOOD to my grocery list and update my estimated grocery bill. Whenever I type "remove FOOD", you will remove FOOD from my grocery list and update my estimated grocery bill. Whenever I type "save" you will list alternatives to my added FOOD to save money. At the end, you will ask me for the next action.
+Whenever I type: "add FOOD", you will add FOOD to my grocery list
+and update my estimated grocery bill.
+
+Whenever I type "remove FOOD", you will remove FOOD from my grocery list
+and update my estimated grocery bill.
+
+Whenever I type "save" you will list alternatives
+to my added FOOD to save money.
+
+At the end, you will ask me for the next action.
+
 Ask me for the first action.
 ```
 
@@ -69,7 +106,11 @@ Ask me for the first action.
 Example
 
 ```text
-Whenever you output text, generate a set of facts that are contained in the output. The set of facts should be inserted at the end of the output. The set of facts should be the fundamental facts that could undermine the veracity of the output if any of them are incorrect.
+Whenever you output text, generate a set of facts that are contained in the output.
+The set of facts should be inserted at the end of the output.
+The set of facts should be the fundamental facts
+that could undermine the veracity of the output
+if any of them are incorrect.
 ```
 
 ## Tail Generation Pattern
@@ -95,7 +136,8 @@ Ask me for the first thing to write about.
 Examples
 
 ```text
-Filter this information to remove any personally identifying information or information that could potentially be used to re-identify the person.
+Filter this information to remove any personally identifying information
+or information that could potentially be used to re-identify the person.
 ```
 
 ```text
@@ -138,8 +180,9 @@ Ask me for the first task.
 <details>
 <summary>Responses</summary>
 
-
-Whenever I say "act as a <persona>: <task>", in addition to answering any prompt with the format
+```text
+Whenever I say "act as a <persona>: <task>",
+in addition to answering any prompt with the format
 
 * list what the task is
 * write a summary of the approach
@@ -148,11 +191,19 @@ Whenever I say "act as a <persona>: <task>", in addition to answering any prompt
 
 I want you to add a section at the end.
 
-* write alternative better prompts in a numbered list that include the pattern name. These can be a combination of patterns.
+* write alternative better prompts in a numbered list
+that include the pattern name.
+These can be a combination of patterns.
 
-When you are done, ask me for the next prompt. If I enter a <number> provide more details of the alternative approach from the numbered list. If I enter a single letter, execute the alternative prompt to yourself from the alphabetical list.
+When you are done, ask me for the next prompt.
+If I enter a <number> provide more details
+of the alternative approach from the numbered list.
+If I enter a single letter,
+execute the alternative prompt to yourself
+from the alphabetical list.
 
 Ask me for the first task.
+```
 
 ---
 
@@ -160,7 +211,14 @@ Understood! Please provide the first task.
 
 ---
 
-act as a software engineer: I want to slowly migrate a UI written in Javascript and React to another repository written in Typescript and React and served from the same domain. What are the approaches I can use to accomplish this.
+```text
+act as a software engineer:
+I want to slowly migrate a UI written in Javascript and React
+to another repository written in Typescript and React
+and served from the same domain.
+
+What are the approaches I can use to accomplish this?
+```
 
 ---
 
@@ -218,7 +276,7 @@ Alternative Better Prompts
 What’s the next prompt? Enter a number for more details on an alternative approach or a letter to execute the corresponding approach.
 
 ---
-Alternative Approach 2
+> Alternative Approach 2
 ---
 Details for Alternative Approach 2: Micro-Frontend Integration Pattern
 
@@ -262,7 +320,7 @@ Challenges
 
 Would you like to dive deeper into any specific aspect of this approach or move to another prompt?
 ---
-A
+> A
 ---
 Executing Approach A: Iframe-Based Migration
 
@@ -278,7 +336,7 @@ Steps for Iframe-Based Migration
 	•	Set the src of the iframe to point to the hosted TypeScript-based app.
 Example:
 
-```
+```Javascript
 const NewFeatureIframe = () => (
   <iframe
     src="https://your-domain.com/new-feature"
@@ -287,7 +345,6 @@ const NewFeatureIframe = () => (
   />
 );
 ```
-
 
 	3.	Set Up Communication
 	•	Use the postMessage API for communication between the parent app and the iframe.
@@ -298,10 +355,12 @@ iframeRef.current.contentWindow.postMessage({ type: 'UPDATE_DATA', payload: data
 
 Example: Receiving a message:
 
+```JavaScript
 window.addEventListener('message', (event) => {
   if (event.origin !== 'https://your-domain.com') return;
   // Handle the message
 });
+```
 
 
 	4.	Routing Integration
@@ -324,7 +383,7 @@ Challenges
 
 Would you like further details about iframe-specific communication, styling, or performance optimization? Or should we move to another task?
 ---
-act as a software architect: provide a recommendation for which approach to choose
+> act as a software architect: provide a recommendation for which approach to choose
 ---
 What the Task Is
 

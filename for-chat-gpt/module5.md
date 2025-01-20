@@ -7,6 +7,7 @@
 - [Recipe pattern](#recipe-pattern)
 - [Alternative Approaches Pattern](#alternative-approaches-pattern)
 - [Exercises: Applying Prompt Patterns II](#exercises-applying-prompt-patterns-ii)
+- [Response](#response)
 
 
 ## Game play patterns
@@ -22,7 +23,11 @@ example
 ## Template Pattern
 
 ```text
-I'm going to give you a template for your output. Words within angle brackets are my placeholders. Fill in my placeholders with your output. Preserve the overall formatting of my template. My template is:
+I'm going to give you a template for your output.
+Words within angle brackets are my placeholders.
+Fill in my placeholders with your output.
+Preserve the overall formatting of my template.
+My template is:
 ```
 
 ```text
@@ -34,15 +39,22 @@ Extract information about the people involved in ...
 ```
 
 ```text
-Create a random strength workout for me today with complementary exercises. I am going to provide a template for your output. CAPITALIZED WORDS are my placeholders for content. Try to fit the output into one or more of the placeholders that I list. Please preserve the formatting and overall template that I provide. This is the template: NAME, REPS @ SETS, MUSCLE GROUPS WORKED, DIFFICULTY SCALE 1-5, FORM NOTES
+Create a random strength workout for me today with complementary exercises.
+I am going to provide a template for your output.
+CAPITALIZED WORDS are my placeholders for content.
+Try to fit the output into one or more of the placeholders that I list.
+Please preserve the formatting and overall template that I provide.
+This is the template:
+NAME, REPS @ SETS, MUSCLE GROUPS WORKED, DIFFICULTY SCALE 1-5, FORM NOTES
 ```
 
 ## Meta language Creation Pattern
 
 Shorthand by giving it a translation
 
-
-> When I say this ___, I mean ___
+```text
+When I say this ___, I mean ___
+```
 
 ## Recipe pattern
 
@@ -59,7 +71,9 @@ You will need to replace "X" with an appropriate task. You will then need to spe
 example
 
 ```text
-I will tell you my start and end destination and you will provide a complete list of stops for me, including places to stop between my start & end destination.
+I will tell you my start and end destination
+and you will provide a complete list of stops for me,
+including places to stop between my start & end destination.
 ```
 
 
@@ -68,7 +82,9 @@ I am travelling from Lyon to Marseilles
 ## Alternative Approaches Pattern
 
 ```text
-From now on, if there are alternative ways to accomplish the same thing, list the best alternate approaches. Compare and contrast the alternatives and ask me which one I want to use.
+From now on, if there are alternative ways to accomplish the same thing,
+list the best alternate approaches.
+Compare and contrast the alternatives and ask me which one I want to use.
 ```
 
 Sample
@@ -83,11 +99,22 @@ Ask ChatGPT to write the prompt and list alternatives and the name of the patter
 Examples
 
 ```text
-For every prompt I give you, If there are alternative ways to word a prompt that I give you, list the best alternate wordings . Compare/contrast the pros and cons of each wording.
+For every prompt I give you,
+if there are alternative ways to word a prompt that I give you,
+list the best alternate wordings.
+Compare/contrast the pros and cons of each wording.
 ```
 
 ```text
-For anything that I ask you to write, determine the underlying problem that I am trying to solve and how I am trying to solve it. List at least one alternative approach to solve the problem and compare / contrast the approach with the original approach implied by my request to you.
+For anything that I ask you to write,
+determine the underlying problem
+that I am trying to solve
+and how I am trying to solve it.
+List at least one alternative approach
+to solve the problem
+and compare / contrast the approach
+with the original approach
+implied by my request to you.
 ```
 
 ---
@@ -103,7 +130,17 @@ For anything that I ask you to write, determine the underlying problem that I am
 Prompt
 
 ```text
-Given a person with a pinched nerve in their neck where pain radiates out to their right shoulder, create a PT exercise program for a week of exercises listed by day, and any rest days. I am going to provide a template for your output. Words within angle brackets are my placeholders for content. Try to fit the output into one or more of the placeholders that I list. Please preserve the formatting and overall template that I provide. This is the template:
+Given a person with a pinched nerve in their neck
+where pain radiates out to their right shoulder,
+create a PT exercise program for a week of exercises
+listed by day, and any rest days.
+
+I am going to provide a template for your output.
+Words within angle brackets are my placeholders for content.
+Try to fit the output into one or more of the placeholders that I list.
+Please preserve the formatting and overall template that I provide.
+
+This is the template:
 
 ## <Day of the week>
 ***<Name of exercise>***
@@ -113,7 +150,6 @@ _<Description>_
 
 Output
 
-```text
 Monday
 
 Chin Tucks
@@ -187,13 +223,12 @@ Combine neck, shoulder, and upper back stretches from the week into a 15-minute 
 15 minutes
 
 Let me know if you’d like to tweak or adjust any of these!
-```
 
 
 </details>
 
 
-2. Choose another one of the patterns from this module and write a sample prompt using the pattern. This prompt must be applied to some information that you provide in the prompt before the pattern. Provide the prompt and output of using the prompt in ChatGPT or another large language model.
+1. Choose another one of the patterns from this module and write a sample prompt using the pattern. This prompt must be applied to some information that you provide in the prompt before the pattern. Provide the prompt and output of using the prompt in ChatGPT or another large language model.
 
 <details>
 <summary>Click to expand</summary>
@@ -203,12 +238,18 @@ Prompt
 ```text
 I am gluten free and I enjoy history, science, and art.
 
-When I say Paris,3->Lyon,2->Nice,2 it means that I will travel to each of those places and stay for that amount of days. I want you to give me a a short description of the history of the place and suggestions for what to do on each day. Go ahead and start with the example.
+When I say Paris,3->Lyon,2->Nice,2
+it means that I will travel to each of those places
+and stay for that amount of days.
+I want you to give me a a short description
+of the history of the place
+and suggestions for what to do on each day.
+Go ahead and start with the example.
 ```
 
 Response
+---
 
-```text
 Itinerary: Paris, 3 -> Lyon, 2 -> Nice, 2
 
 Paris (3 days)
@@ -265,8 +306,6 @@ Day 2: Art and Nature
 	•	Evening: Enjoy a quiet dinner featuring Niçoise cuisine, adapted for gluten-free dining.
 
 Let me know if you’d like more tailored suggestions!
-```
-
 
 </details>
 
