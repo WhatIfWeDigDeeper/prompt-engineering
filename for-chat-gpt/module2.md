@@ -33,3 +33,5 @@ Questions
 
 
 2. Create a prompt and test it with a large language model, such as ChatGPT, that introduces new information since 2021. Please only use public information. Do NOT use information that is private, subject to legal restrictions, or otherwise should not be shared with Coursera, ChatGPT, the instructor, etc. The prompt should require the large language model to perform a task, other than answering a question, with the information. Please provide your prompt and the output as the answer.
+
+[previous](./patterns.md) | [next](./module3.md) | [top](#prompts-conversations--new-information) | [course](./readme.md)

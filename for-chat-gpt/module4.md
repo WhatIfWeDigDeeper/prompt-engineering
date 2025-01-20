@@ -277,3 +277,5 @@ Thought: Staying in the correct lane ensures you comply with traffic rules and m
 Would you like to expand on this example or add more situations?
 
 </details>
+
+[previous](./module3.md) | [next](./module5.md) | [top](#module-4-few-shot-examples) | [course](./readme.md)

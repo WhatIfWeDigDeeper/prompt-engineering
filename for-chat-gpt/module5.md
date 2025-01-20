@@ -1,7 +1,7 @@
 # Module 5 Prompt Patterns II
 
 - [Game play patterns](#game-play-patterns)
-  - [Format](#format)
+	- [Format](#format)
 - [Template Pattern](#template-pattern)
 - [Meta language Creation Pattern](#meta-language-creation-pattern)
 - [Recipe pattern](#recipe-pattern)
@@ -269,3 +269,5 @@ Let me know if you’d like more tailored suggestions!
 
 
 </details>
+
+[previous](./module4.md) | [next](./module6.md) | [top](#module-5-prompt-patterns-ii) | [course](./readme.md)
