@@ -39,11 +39,14 @@ Extract information about the people involved in ...
 ```
 
 ```text
-Create a random strength workout for me today with complementary exercises.
+Create a random strength workout for me today
+ with complementary exercises.
 I am going to provide a template for your output.
 CAPITALIZED WORDS are my placeholders for content.
-Try to fit the output into one or more of the placeholders that I list.
-Please preserve the formatting and overall template that I provide.
+Try to fit the output into one or more
+ of the placeholders that I list.
+Please preserve the formatting
+ and overall template that I provide.
 This is the template:
 NAME, REPS @ SETS, MUSCLE GROUPS WORKED, DIFFICULTY SCALE 1-5, FORM NOTES
 ```
@@ -82,9 +85,11 @@ I am travelling from Lyon to Marseilles
 ## Alternative Approaches Pattern
 
 ```text
-From now on, if there are alternative ways to accomplish the same thing,
-list the best alternate approaches.
-Compare and contrast the alternatives and ask me which one I want to use.
+From now on, if there are alternative ways
+ to accomplish the same thing,
+ list the best alternate approaches.
+Compare and contrast the alternatives
+ and ask me which one I want to use.
 ```
 
 Sample
@@ -100,21 +105,23 @@ Examples
 
 ```text
 For every prompt I give you,
-if there are alternative ways to word a prompt that I give you,
-list the best alternate wordings.
-Compare/contrast the pros and cons of each wording.
+ if there are alternative ways
+ to word a prompt that I give you,
+ list the best alternate wordings.
+Compare/contrast the pros and cons
+ of each wording.
 ```
 
 ```text
 For anything that I ask you to write,
-determine the underlying problem
-that I am trying to solve
-and how I am trying to solve it.
+ determine the underlying problem
+ that I am trying to solve
+ and how I am trying to solve it.
 List at least one alternative approach
-to solve the problem
-and compare / contrast the approach
-with the original approach
-implied by my request to you.
+ to solve the problem
+ and compare / contrast the approach
+ with the original approach
+ implied by my request to you.
 ```
 
 ---
@@ -135,10 +142,14 @@ where pain radiates out to their right shoulder,
 create a PT exercise program for a week of exercises
 listed by day, and any rest days.
 
-I am going to provide a template for your output.
-Words within angle brackets are my placeholders for content.
-Try to fit the output into one or more of the placeholders that I list.
-Please preserve the formatting and overall template that I provide.
+I am going to provide a template
+ for your output.
+Words within angle brackets
+ are my placeholders for content.
+Try to fit the output into one or more
+ of the placeholders that I list.
+Please preserve the formatting
+ and overall template that I provide.
 
 This is the template:
 

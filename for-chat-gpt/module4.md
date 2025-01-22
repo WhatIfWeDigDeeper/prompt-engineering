@@ -251,16 +251,19 @@ Thought: driving slow at first is safer
 because you could see things you missed.
 
 Situation: car parked on left side of the Street
-Action: slow down while passing the parked car on the other side of the road.
-Thought: there may be people or animals that are blocked from view who may dart out into traffic.
+Action: slow down while passing the parked car
+ on the other side of the road.
+Thought: there may be people or animals that are blocked from view
+ who may dart out into traffic.
 Action: after passing car accelerate back to the speed limit.
 Thought: after it's clear and there are no obstructions
 then it is safe to resume normal speed.
 
-Situation: car parked on right side of the street that necessitates passing
- by going into the opposite lane.
+Situation: car parked on right side of the street
+ that necessitates passing by going into the opposite lane.
 Action: slow down.
-Thought: be prepared to stop if there is a car coming on the opposite side of the road.
+Thought: be prepared to stop if there is a car coming
+ on the opposite side of the road.
 Action:
 ```
 
